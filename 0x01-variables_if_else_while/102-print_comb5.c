@@ -1,29 +1,40 @@
 #include <stdio.h>
 
 /**
- * main - prints combination of two digits
+ * main - Prints 3 combination of numbers
+ *
  * Return: Always 0 (Success)
  */
 
 int main(void)
 {
-	int one;
-	int ten;
-	int hundred;
+	int c, i, k, j;
 
-	for (hundred = '0'; hundred <= '9'; hundred++)
+	for (c = 48; c <= 57; c++)
 	{
-		for (ten = hundred + 1; ten <= '9'; ten++)
+		for (i = 48; i <= 57; i++)
 		{
-			for (one = ten + 1; one <= '9'; one++)
+			for (k = 48; k <= 57; k++)
 			{
-				putchar(hundred);
-				putchar(ten);
-				putchar(one);
-				if (hundred != '7' || ten != '8' || one != '9')
+				for (j = 48; j <= 57; j++)
 				{
-					putchar(',');
-					putchar(' ');
+					if (((k + j) > (c + i) && k >= c) || c < k)
+					{
+						putchar(c);
+						putchar(i);
+						putchar(' ');
+						putchar(k);
+						putchar(j);
+					if (c + i + k + j == 227 && c == 57)
+					{
+						break;
+					}
+					else
+					{
+						putchar(',');
+						putchar(' ');
+					}
+					}
 				}
 			}
 		}
