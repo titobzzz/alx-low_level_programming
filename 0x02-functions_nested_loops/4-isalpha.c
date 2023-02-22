@@ -4,9 +4,10 @@
 /**
  * _isalpha - checks if an input
  * @c: character is lower or not
+ *
  * Return: 1 if true and 0 if false
  * Auth - OLUMOYIN JOSHUA 
- **/
+ */
 
 int _isalpha(int c)
 {
