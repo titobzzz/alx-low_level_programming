@@ -7,7 +7,7 @@
  *
  * Return: 1 if true and 0 if false
  * Auth - OLUMOYIN JOSHUA 
- */
+ **/
 
 int _isalpha(int c)
 {
