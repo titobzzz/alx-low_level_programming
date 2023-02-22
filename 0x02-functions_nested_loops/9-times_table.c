@@ -5,7 +5,7 @@
  * starting from 0.
  *
  * Auth - OLUMOYIN JOSHUA
- * */
+ */
 
 void times_table(void)
 {

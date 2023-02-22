@@ -5,8 +5,8 @@
  * @numb1: The first integer
  * @numb2: The second integer
  * Return: The result of the addition
- * Auth - OLUMOYIN JOSHUA 
- * */
+ * Auth - OLUMOYIN JOSHUA
+ */
 
 int add(int numb1, int numb2)
 {
