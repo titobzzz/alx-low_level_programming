@@ -4,8 +4,8 @@
  * times_table - prints the 9 times table
  * starting from 0.
  *
- * Auth - ALABI TIMOTHY
- */
+ * Auth - OLUMOYIN JOSHUA
+ * */
 
 void times_table(void)
 {

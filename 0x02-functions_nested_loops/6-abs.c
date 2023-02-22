@@ -4,7 +4,7 @@
  * _abs - computes the absolute value of an integer
  * @n: value of interger
  * Return: Absolute value
- * Auth - ALABI TIMOTHY
+ * Auth- OLUMOYIN JOSHUA 
  */
 
 int _abs(int n)

@@ -3,7 +3,7 @@
 /**
  * jack_bauer - Prints every minutes of the day
  * Starting from 00 : 00 to 23 : 59
- * Auth - ALABI TIMOTHY
+ * Auth - OLUMOYIN JOSHUA 
  */
 
 void jack_bauer(void)

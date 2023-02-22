@@ -3,7 +3,7 @@
 /**
  * print_alphabet_x10 - prints out alphabets 10 times
  *
- * Auth : ALABI TIMOTHY
+ * Auth : OLUMOYIN JOSHUA
  *
  */
 
