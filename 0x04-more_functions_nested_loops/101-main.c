@@ -5,6 +5,11 @@
  *
  * Return: Always 0.
  */
+
+void print_number(int n);
+
+/* function prototype */
+
 int main(void)
 {
 
