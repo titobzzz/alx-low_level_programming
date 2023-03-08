@@ -6,6 +6,8 @@
  *
  * @a: pointer o the array
  * Return: No Return
+ *
+ * AUTHOR - A
  */
 
 void print_chessboard(char (*a)[8])
