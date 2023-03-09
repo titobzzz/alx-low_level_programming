@@ -7,6 +7,7 @@
  * @s: char parameter
  *
  * Return: Nothing.
+ *
  */
 
 void _puts_recursion(char *s)
