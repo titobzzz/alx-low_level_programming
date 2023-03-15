@@ -1,21 +1,20 @@
-#include <stdio.h>
 #include <stdlib.h>
 
 /**
- * char create_array create array of chars
+ * create_array - creates an array of chars and initializes
+ *                it with a specific char.
  *
  * @size: array size
- * @c:char to initalize array with
+ * @c: char to initialize array with
  *
- * Returns NULL if size = 0
- * Returns a pointer to the array, or NULL if it fails
- * Author - OLUMOYIN TITOBIOLUWA JOSHUA
+ * Return: array @a
+ *
  */
 
 char *create_array(unsigned int size, char c)
 {
-	char *a;
 	unsigned int i;
+	char *a;
 
 	if (size == 0)
 		return (NULL);
