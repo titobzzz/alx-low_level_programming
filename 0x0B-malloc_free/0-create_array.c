@@ -1,15 +1,18 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
- * char *create_array(unsigned int size, char c) to create array of chars
- *@c:char to initalize array with
+ * char create_array create array of chars
+ *
+ * @size: array size
+ * @c:char to initalize array with
  *
  * Returns NULL if size = 0
  * Returns a pointer to the array, or NULL if it fails
  * Author - OLUMOYIN TITOBIOLUWA JOSHUA
  */
 
-create_array(unsigned int size, char c)
+char *create_array(unsigned int size, char c)
 {
 	char *a;
 	unsigned int i;
